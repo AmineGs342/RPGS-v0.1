@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA Servers</title>
+<link rel="stylesheet" href="xiivii.css">
+</head>
+<body>
+
+  <!-- server selectors (CSS only, no JS) -->
+  <input class="pick" type="radio" name="server" id="s1" checked aria-label="NEWLIFE">
+  <input class="pick" type="radio" name="server" id="s2" aria-label="MEGA-LIFE">
+  <input class="pick" type="radio" name="server" id="s3" aria-label="BLAST RP">
+  <input class="pick" type="radio" name="server" id="s4" aria-label="HAMMA">
+
+  <header>
+    <a class="account" href="#account" title="Account" aria-label="Account">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4.2"/><path d="M3.5 21c0-4.6 3.8-7.5 8.5-7.5s8.5 2.9 8.5 7.5z"/></svg>
+    </a>
+
+    <form class="search-form" action="#search" method="get" role="search">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" list="servers" placeholder="Search servers..." autocomplete="off">
+      <datalist id="servers">
+        <option value="NEWLIFE">
+        <option value="MEGA-LIFE">
+        <option value="BLAST RP">
+      </datalist>
+    </form>
+
+    <a class="download" href="#download" title="Download" aria-label="Download">
+      <svg viewBox="0 0 24 24"><path d="M12 3v12M6.5 10.5L12 16l5.5-5.5M4 20h16"/></svg>
+    </a>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>Servers</h2>
+      <label class="newlife"  for="s1">NEWLIFE</label>
+      <label class="megalife" for="s2">MEGA-LIFE</label>
+      <label class="blastrp"  for="s3">BLAST RP</label>
+      <label class="hamma" for="s4">FOR HAMMA 🤫</label>
+    </aside>
+
+    <main class="infos" id="search">
+      <div class="infos-head"><h1>INFOS</h1></div>
+
+      <!-- NEWLIFE -->
+      <section class="panel p1">
+        <h2>NEWLIFE</h2>
+        <div class="grid">
+          <div class="Ncard">soon</div><div class="Ncard">soon</div><div class="Ncard">soon</div><div class="Ncard">soon</div>
+          <div class="Ncard">soon</div><div class="Ncard">soon</div><div class="Ncard">soon</div><div class="Ncard">soon</div>
+          <div class="Ncard">soon</div><div class="Ncard">soon</div><div class="Ncard">soon</div><div class="Ncard">soon</div>
+        </div>
+      </section>
+
+      <!-- MEGA-LIFE -->
+      <section class="panel p2">
+        <h2>MEGA-LIFE</h2>
+        <div class="grid">
+          <div class="Mcard">soon</div><div class="Mcard">soon</div><div class="Mcard">soon</div><div class="Mcard">soon</div>
+          <div class="Mcard">soon</div><div class="Mcard">soon</div><div class="Mcard">soon</div><div class="Mcard">soon</div>
+          <div class="Mcard">soon</div><div class="Mcard">soon</div><div class="Mcard">soon</div><div class="Mcard">soon</div>
+        </div>
+      </section>
+
+      <!-- BLAST RP -->
+      <section class="panel p3">
+        <h2>BLAST RP</h2>
+        <div class="grid">
+          <div class="Bcard">soon</div><div class="Bcard">soon</div><div class="Bcard">soon</div><div class="Bcard">soon</div>
+          <div class="Bcard">soon</div><div class="Bcard">soon</div><div class="Bcard">soon</div><div class="Bcard">soon</div>
+          <div class="Bcard">soon</div><div class="Bcard">soon</div><div class="Bcard">soon</div><div class="Bcard">soon</div>
+        </div>
+      </section>
+      <!-- Hamma -->
+      <section class="panel p4">
+        <h2>Tsawer</h2>
+          <div class="grid">
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZtW5j-bBUHXh7xVvGw2AmlHn0RNT8ZVohMptcKfaLQ&s=10" alt=""></div>
+          <div class="Hcard"><img class="sec" src="data:image/jpeg;base64,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" alt=""></div>
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGbzFnkKzrio9O4BL-GprXPP9Mzx-IJ_Flpl6jZdH-KQ&s" alt=""></div>
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4coNkx64yoGtelvamsDc6mCUP64_hYbmJmswXp_9b4Q&s=10" alt=""></div>
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9WprH8DbFXGx-FEJc852cy_P5jO8CST_a7YvWwo03tg&s=10" alt=""></div>
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJZfXMYmJrV3Hyr-osvRc2c-FsKcfj97q1D-UxXrLCTA&s=10" alt=""></div>
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDmJO_kAAX362vVUWts5ueoSfRyY0HBPL-EHER_5jfuA&s=10" alt=""></div>
+          <div class="Hcard"><img class="sec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMZN0Mdyenyb1Y4tXO2b_iao91lqe8woDxA6yUREAWg&s=10" alt=""></div>
+            </div><hr><h2>Videowet</h2>
+            <div class="grid">
+              <div class="Hcard"><a href="https://www.pornhub.com/view_video.php?viewkey=663f9c81110c6" target="_blank"><img src="https://ei.phncdn.com/videos/202405/11/452330031/original/(m=qQM2-JZbeafTGgaaaa)(mh=FBuGCAKne9GIRP6b)0.jpg" alt="" title="VIDEO"></a></div>
+              <div class="Hcard"><a href="https://www.pornhub.com/view_video.php?viewkey=6a57c2a5103b0" target="_blank"><img src="https://pix-fl.phncdn.com/c6251/videos/202607/15/55632385/original/019f66d2-a229-7aa4-8bab-4bdeba43dd35.png/plain/rs:fit:320:180?hdnea=st=1794756051~exp=1794842451~hdl=-1~hmac=740d6f8cfeae36cb2a20560f6aab51a120426766" alt=""></a></div>
+              <div class="Hcard"><a href="https://www.pornhub.com/view_video.php?viewkey=6840016d1f15c" target="_blank"><img src="https://ei.phncdn.com/videos/202506/04/469764545/thumbs_10/(m=eafTGgaaaa)(mh=UadSBS5LJTCJhf4v)1.jpg" alt=""></a></div>
+              <div class="Hcard"><a href="https://www.pornhub.com/view_video.php?viewkey=673255136bd0f" target="_blank"><img src="https://ei.phncdn.com/videos/202411/11/460383961/thumbs_34/(m=eafTGgaaaa)(mh=7rQ5zLUak_OfW8Ui)8.jpg" alt=""></a></div>
+            </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <!-- Fill your footer here -->
+    Footer — soon
+  </footer>
+
+  <!-- popups -->
+  <div class="modal" id="account">
+    <div class="box"><h3>Account</h3><p>Soon</p><a href="#">OK</a></div>
+  </div>
+  <div class="modal" id="download">
+    <div class="box"><h3>Download</h3><p>Soon</p><a href="#">OK</a></div>
+  </div>
+
+</body>
+</html>
