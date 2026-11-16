@@ -241,7 +241,7 @@ input.pick:focus-visible ~ .layout .sidebar { outline: 2px solid var(--orange); 
   overflow: hidden;
   transition: transform .25s, border-color .25s, box-shadow .25s;
 }
-.Hcard {
+.Scard {
   position: relative;
   min-height: 190px;
   padding: 18px;
@@ -269,7 +269,7 @@ input.pick:focus-visible ~ .layout .sidebar { outline: 2px solid var(--orange); 
   border-color: color-mix(in srgb, var(--accent) 60%, transparent);
   box-shadow: 0 16px 36px rgba(255, 115, 0, 0.671);
 }
-.Hcard:hover {
+.Scard:hover {
   transform: translateY(-6px);
   border-color: color-mix(in srgb, var(--accent) 60%, transparent);
   box-shadow: 0 16px 36px rgba(47, 0, 255, 0.671);
@@ -331,7 +331,11 @@ footer {
   .grid { grid-template-columns: 1fr; }
 }
 
-.sec{
-  width: 400px;
-  height: 150px;
+.imgg{
+  width: 110%;
+  height: 110%;
+  border-radius: 10px;
+}
+a.link:hover{
+  text-shadow: 2px 2px 8px #8b90a7;
 }
