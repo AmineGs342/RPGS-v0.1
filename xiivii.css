@@ -1,9 +1,9 @@
 :root {
   /* ====== CHANGE ONLY THE DOT COLORS HERE ====== */
   --dot-newlife:  #00ff15;
-  --dot-megalife: #ff0000;
-  --dot-blastrp:  #ff0000;
-  --dot-hamma:  #ff0000;
+  --dot-gamess: #ff7b00;
+  --dot-Sampmods:  #ff0000;
+  --dot-old:  #ff7b00;
   /* ============================================================================= */
 
   --bg: #0a0c14;
@@ -145,9 +145,9 @@ header {
 }
 .sidebar label:hover { background: var(--surface-2); color: var(--text); transform: translateX(4px); }
 .sidebar .newlife  { --dot: var(--dot-newlife); }
-.sidebar .megalife { --dot: var(--dot-megalife); }
-.sidebar .blastrp  { --dot: var(--dot-blastrp); }
-.sidebar .hamma  { --dot: var(--dot-hamma); }
+.sidebar .games { --dot: var(--dot-gamess); }
+.sidebar .sampmodss  { --dot: var(--dot-Sampmods); }
+.sidebar .old  { --dot: var(--dot-old); }
 
 input.pick { position: absolute; opacity: 0; pointer-events: none; }
 
@@ -329,12 +329,6 @@ footer {
   header { grid-template-columns: auto 1fr auto; padding: 10px 14px; }
   .infos { padding: 20px 16px 26px; }
   .grid { grid-template-columns: 1fr; }
-}
-
-.imgg{
-  width: 110%;
-  height: 110%;
-  border-radius: 10px;
 }
 a.link:hover{
   text-shadow: 2px 2px 8px #8b90a7;
